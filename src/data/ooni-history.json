@@ -682,24 +682,24 @@
     "month": "2026-03"
   },
   {
-    "anomaly_count": 11844,
+    "anomaly_count": 11859,
     "confirmed_count": 347,
-    "failure_count": 3236,
-    "ok_count": 69881,
-    "measurement_count": 85308,
+    "failure_count": 3237,
+    "ok_count": 69914,
+    "measurement_count": 85357,
     "measurement_start_day": "2026-04-01",
     "anomaly_rate": 13.9,
     "period": "2026-04-01",
     "month": "2026-04"
   },
   {
-    "anomaly_count": 3276,
-    "confirmed_count": 143,
-    "failure_count": 770,
-    "ok_count": 17791,
-    "measurement_count": 21980,
+    "anomaly_count": 4428,
+    "confirmed_count": 247,
+    "failure_count": 987,
+    "ok_count": 23343,
+    "measurement_count": 29005,
     "measurement_start_day": "2026-05-01",
-    "anomaly_rate": 14.9,
+    "anomaly_rate": 15.3,
     "period": "2026-05-01",
     "month": "2026-05"
   }
