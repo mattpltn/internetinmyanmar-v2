@@ -408,5 +408,15 @@
     "measurement_start_day": "2026-05-07",
     "anomaly_rate": 16.0,
     "period": "2026-05-07"
+  },
+  {
+    "anomaly_count": 251,
+    "confirmed_count": 5,
+    "failure_count": 70,
+    "ok_count": 1211,
+    "measurement_count": 1537,
+    "measurement_start_day": "2026-05-08",
+    "anomaly_rate": 16.3,
+    "period": "2026-05-08"
   }
 ]
