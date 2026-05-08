@@ -1,13 +1,13 @@
 {
-  "lastUpdated": "2026-05-08T00:00:13.435594+00:00",
+  "lastUpdated": "2026-05-08T12:00:16.495683+00:00",
   "since": "2025-05-08",
   "categories": [
     {
-      "anomaly_count": 24203,
-      "confirmed_count": 827,
-      "failure_count": 2498,
-      "ok_count": 34230,
-      "measurement_count": 61758,
+      "anomaly_count": 24298,
+      "confirmed_count": 830,
+      "failure_count": 2507,
+      "ok_count": 34421,
+      "measurement_count": 62056,
       "category_code": "GRP",
       "anomaly_rate": 39.2
     },
@@ -21,47 +21,47 @@
       "anomaly_rate": 33.1
     },
     {
-      "anomaly_count": 12646,
+      "anomaly_count": 12674,
       "confirmed_count": 224,
-      "failure_count": 2716,
-      "ok_count": 25895,
-      "measurement_count": 41481,
+      "failure_count": 2723,
+      "ok_count": 25924,
+      "measurement_count": 41545,
       "category_code": "ANON",
       "anomaly_rate": 30.5
     },
     {
-      "anomaly_count": 8002,
-      "confirmed_count": 200,
-      "failure_count": 991,
-      "ok_count": 17998,
-      "measurement_count": 27191,
+      "anomaly_count": 8023,
+      "confirmed_count": 201,
+      "failure_count": 1001,
+      "ok_count": 18055,
+      "measurement_count": 27280,
       "category_code": "MMED",
       "anomaly_rate": 29.4
     },
     {
       "anomaly_count": 5063,
-      "confirmed_count": 103,
+      "confirmed_count": 104,
       "failure_count": 3156,
-      "ok_count": 19310,
-      "measurement_count": 27632,
+      "ok_count": 19319,
+      "measurement_count": 27642,
       "category_code": "GOVT",
       "anomaly_rate": 18.3
     },
     {
-      "anomaly_count": 5692,
+      "anomaly_count": 5716,
       "confirmed_count": 57,
-      "failure_count": 1320,
-      "ok_count": 25271,
-      "measurement_count": 32340,
+      "failure_count": 1326,
+      "ok_count": 25358,
+      "measurement_count": 32457,
       "category_code": "COMT",
       "anomaly_rate": 17.6
     },
     {
-      "anomaly_count": 1955,
+      "anomaly_count": 1960,
       "confirmed_count": 10,
       "failure_count": 864,
-      "ok_count": 8692,
-      "measurement_count": 11521,
+      "ok_count": 8722,
+      "measurement_count": 11556,
       "category_code": "FILE",
       "anomaly_rate": 17.0
     },
@@ -75,38 +75,38 @@
       "anomaly_rate": 16.4
     },
     {
-      "anomaly_count": 14006,
+      "anomaly_count": 14029,
       "confirmed_count": 839,
-      "failure_count": 2798,
-      "ok_count": 69461,
-      "measurement_count": 87104,
+      "failure_count": 2802,
+      "ok_count": 69541,
+      "measurement_count": 87211,
       "category_code": "NEWS",
       "anomaly_rate": 16.1
     },
     {
-      "anomaly_count": 6049,
+      "anomaly_count": 6061,
       "confirmed_count": 172,
-      "failure_count": 1702,
-      "ok_count": 31537,
-      "measurement_count": 39460,
+      "failure_count": 1707,
+      "ok_count": 31582,
+      "measurement_count": 39522,
       "category_code": "POLR",
       "anomaly_rate": 15.3
     },
     {
-      "anomaly_count": 2573,
+      "anomaly_count": 2574,
       "confirmed_count": 0,
       "failure_count": 525,
-      "ok_count": 15512,
-      "measurement_count": 18610,
+      "ok_count": 15548,
+      "measurement_count": 18647,
       "category_code": "CULTR",
       "anomaly_rate": 13.8
     },
     {
-      "anomaly_count": 1353,
+      "anomaly_count": 1357,
       "confirmed_count": 1,
-      "failure_count": 309,
-      "ok_count": 8165,
-      "measurement_count": 9828,
+      "failure_count": 312,
+      "ok_count": 8193,
+      "measurement_count": 9863,
       "category_code": "SRCH",
       "anomaly_rate": 13.8
     },
@@ -120,11 +120,11 @@
       "anomaly_rate": 13.7
     },
     {
-      "anomaly_count": 11869,
+      "anomaly_count": 11885,
       "confirmed_count": 168,
-      "failure_count": 3530,
-      "ok_count": 72392,
-      "measurement_count": 87959,
+      "failure_count": 3532,
+      "ok_count": 72489,
+      "measurement_count": 88074,
       "category_code": "HUMR",
       "anomaly_rate": 13.5
     },
@@ -156,38 +156,38 @@
       "anomaly_rate": 13.0
     },
     {
-      "anomaly_count": 1826,
+      "anomaly_count": 1833,
       "confirmed_count": 0,
-      "failure_count": 614,
-      "ok_count": 13756,
-      "measurement_count": 16196,
+      "failure_count": 617,
+      "ok_count": 13894,
+      "measurement_count": 16344,
       "category_code": "REL",
-      "anomaly_rate": 11.3
+      "anomaly_rate": 11.2
     },
     {
-      "anomaly_count": 689,
+      "anomaly_count": 694,
       "confirmed_count": 0,
       "failure_count": 182,
-      "ok_count": 5325,
-      "measurement_count": 6196,
+      "ok_count": 5380,
+      "measurement_count": 6256,
       "category_code": "XED",
       "anomaly_rate": 11.1
     },
     {
-      "anomaly_count": 3202,
+      "anomaly_count": 3205,
       "confirmed_count": 5,
-      "failure_count": 1551,
-      "ok_count": 24459,
-      "measurement_count": 29217,
+      "failure_count": 1553,
+      "ok_count": 24487,
+      "measurement_count": 29250,
       "category_code": "LGBT",
       "anomaly_rate": 11.0
     },
     {
-      "anomaly_count": 3663,
+      "anomaly_count": 3671,
       "confirmed_count": 7,
-      "failure_count": 884,
-      "ok_count": 28917,
-      "measurement_count": 33471,
+      "failure_count": 886,
+      "ok_count": 29119,
+      "measurement_count": 33683,
       "category_code": "HOST",
       "anomaly_rate": 10.9
     },
@@ -201,13 +201,13 @@
       "anomaly_rate": 10.7
     },
     {
-      "anomaly_count": 1136,
+      "anomaly_count": 1141,
       "confirmed_count": 10,
-      "failure_count": 397,
-      "ok_count": 9505,
-      "measurement_count": 11048,
+      "failure_count": 399,
+      "ok_count": 9592,
+      "measurement_count": 11142,
       "category_code": "ENV",
-      "anomaly_rate": 10.3
+      "anomaly_rate": 10.2
     },
     {
       "anomaly_count": 503,
@@ -237,13 +237,13 @@
       "anomaly_rate": 9.3
     },
     {
-      "anomaly_count": 958,
+      "anomaly_count": 960,
       "confirmed_count": 3,
-      "failure_count": 401,
-      "ok_count": 9838,
-      "measurement_count": 11200,
+      "failure_count": 416,
+      "ok_count": 9867,
+      "measurement_count": 11246,
       "category_code": "PUBH",
-      "anomaly_rate": 8.6
+      "anomaly_rate": 8.5
     },
     {
       "anomaly_count": 104,
@@ -258,8 +258,8 @@
       "anomaly_count": 171,
       "confirmed_count": 0,
       "failure_count": 190,
-      "ok_count": 2571,
-      "measurement_count": 2932,
+      "ok_count": 2573,
+      "measurement_count": 2934,
       "category_code": "IGO",
       "anomaly_rate": 5.8
     },
