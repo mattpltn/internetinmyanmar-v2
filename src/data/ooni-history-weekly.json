@@ -2740,11 +2740,11 @@
     "period": "2026-04-26"
   },
   {
-    "anomaly_count": 4283,
-    "confirmed_count": 204,
-    "failure_count": 977,
-    "ok_count": 23016,
-    "measurement_count": 28480,
+    "anomaly_count": 4614,
+    "confirmed_count": 232,
+    "failure_count": 1069,
+    "ok_count": 24793,
+    "measurement_count": 30708,
     "measurement_start_day": "2026-05-03",
     "anomaly_rate": 15.0,
     "period": "2026-05-03"
