@@ -91,7 +91,7 @@ OUTPUT_FILES = {
 
 # Freshness thresholds: how old can a source file be before we warn?
 FRESHNESS_LIMITS = {
-    "bgp-outages.json":          timedelta(hours=1),
+    "bgp-outages.json":          timedelta(hours=3),
     "keepiton-shutdowns.json":   timedelta(days=8),
     "ooni-history-daily.json":   timedelta(hours=25),
     "blocked-sites.json":        timedelta(hours=25),
