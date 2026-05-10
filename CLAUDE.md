@@ -65,7 +65,7 @@ Italian  → occasional — European institutional outreach
 
 ```
 Dev machine:  Windows 11 + WSL2 Ubuntu · repo at ~/dev/iimv2 · dev server localhost:4321
-GitHub:       Arrgghh12/internetinmyanmar-v2
+GitHub:       mattpltn/internetinmyanmar-v2
 Branches:     main → production · draft/* → per-article PRs
 CF Pages:     build: npm run build · output: dist/ · Node 20 · rebuilds on every push to main
 VPS:          root@157.180.83.168 · agents at /root/agents/ · logs at /root/logs/
