@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-05-09T12:01:02.140200+00:00",
-  "activeShutdowns": 2,
-  "blockedSites": 118,
+  "lastUpdated": "2026-05-10T00:00:51.573844+00:00",
+  "activeShutdowns": 0,
+  "blockedSites": 121,
   "daysSinceLastMajorOutage": 0,
-  "rawAnomaliesLast24h": 29,
+  "rawAnomaliesLast24h": 0,
   "totalMeasurementsScanned": 200
 }
