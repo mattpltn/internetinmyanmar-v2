@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-05-09T12:00:09.037431+00:00",
-  "since": "2025-05-09",
+  "lastUpdated": "2026-05-10T00:00:13.883022+00:00",
+  "since": "2025-05-10",
   "tests": [
     {
       "anomaly_count": 16,
@@ -12,38 +12,38 @@
       "anomaly_rate": 100.0
     },
     {
-      "anomaly_count": 5792,
+      "anomaly_count": 5788,
       "confirmed_count": 0,
       "failure_count": 0,
-      "ok_count": 607,
-      "measurement_count": 6399,
+      "ok_count": 610,
+      "measurement_count": 6398,
       "test_name": "facebook_messenger",
       "anomaly_rate": 90.5
     },
     {
-      "anomaly_count": 5718,
+      "anomaly_count": 5715,
       "confirmed_count": 0,
       "failure_count": 11,
-      "ok_count": 622,
+      "ok_count": 625,
       "measurement_count": 6351,
       "test_name": "signal",
       "anomaly_rate": 90.0
     },
     {
-      "anomaly_count": 5711,
+      "anomaly_count": 5709,
       "confirmed_count": 0,
       "failure_count": 1,
-      "ok_count": 662,
-      "measurement_count": 6374,
+      "ok_count": 665,
+      "measurement_count": 6375,
       "test_name": "whatsapp",
       "anomaly_rate": 89.6
     },
     {
-      "anomaly_count": 5459,
+      "anomaly_count": 5453,
       "confirmed_count": 0,
       "failure_count": 0,
-      "ok_count": 827,
-      "measurement_count": 6286,
+      "ok_count": 831,
+      "measurement_count": 6284,
       "test_name": "tor",
       "anomaly_rate": 86.8
     },
@@ -68,44 +68,44 @@
     {
       "anomaly_count": 255,
       "confirmed_count": 0,
-      "failure_count": 961,
+      "failure_count": 967,
       "ok_count": 127,
-      "measurement_count": 1343,
+      "measurement_count": 1349,
       "test_name": "vanilla_tor",
-      "anomaly_rate": 19.0
+      "anomaly_rate": 18.9
     },
     {
-      "anomaly_count": 110884,
-      "confirmed_count": 2831,
-      "failure_count": 26709,
-      "ok_count": 457135,
-      "measurement_count": 597559,
+      "anomaly_count": 111214,
+      "confirmed_count": 2849,
+      "failure_count": 26875,
+      "ok_count": 459317,
+      "measurement_count": 600255,
       "test_name": "web_connectivity",
-      "anomaly_rate": 18.6
+      "anomaly_rate": 18.5
     },
     {
-      "anomaly_count": 6789,
+      "anomaly_count": 6782,
       "confirmed_count": 0,
       "failure_count": 0,
-      "ok_count": 37563,
-      "measurement_count": 44352,
+      "ok_count": 37583,
+      "measurement_count": 44365,
       "test_name": "stunreachability",
       "anomaly_rate": 15.3
     },
     {
-      "anomaly_count": 390,
+      "anomaly_count": 392,
       "confirmed_count": 0,
       "failure_count": 0,
-      "ok_count": 5828,
-      "measurement_count": 6218,
+      "ok_count": 5832,
+      "measurement_count": 6224,
       "test_name": "psiphon",
       "anomaly_rate": 6.3
     },
     {
-      "anomaly_count": 359,
+      "anomaly_count": 362,
       "confirmed_count": 0,
       "failure_count": 0,
-      "ok_count": 6049,
+      "ok_count": 6046,
       "measurement_count": 6408,
       "test_name": "telegram",
       "anomaly_rate": 5.6
@@ -114,8 +114,8 @@
       "anomaly_count": 115,
       "confirmed_count": 0,
       "failure_count": 0,
-      "ok_count": 5989,
-      "measurement_count": 6104,
+      "ok_count": 5988,
+      "measurement_count": 6103,
       "test_name": "http_header_field_manipulation",
       "anomaly_rate": 1.9
     },
@@ -123,35 +123,35 @@
       "anomaly_count": 76,
       "confirmed_count": 0,
       "failure_count": 0,
-      "ok_count": 6013,
-      "measurement_count": 6089,
+      "ok_count": 6012,
+      "measurement_count": 6088,
       "test_name": "http_invalid_request_line",
       "anomaly_rate": 1.2
     },
     {
       "anomaly_count": 0,
       "confirmed_count": 0,
-      "failure_count": 543,
-      "ok_count": 2748,
-      "measurement_count": 3291,
+      "failure_count": 536,
+      "ok_count": 2749,
+      "measurement_count": 3285,
       "test_name": "dash",
       "anomaly_rate": 0.0
     },
     {
       "anomaly_count": 0,
       "confirmed_count": 0,
-      "failure_count": 88000,
+      "failure_count": 87903,
       "ok_count": 0,
-      "measurement_count": 88000,
+      "measurement_count": 87903,
       "test_name": "dnscheck",
       "anomaly_rate": 0.0
     },
     {
       "anomaly_count": 0,
       "confirmed_count": 0,
-      "failure_count": 6293,
+      "failure_count": 6283,
       "ok_count": 0,
-      "measurement_count": 6293,
+      "measurement_count": 6283,
       "test_name": "echcheck",
       "anomaly_rate": 0.0
     },
@@ -159,8 +159,8 @@
       "anomaly_count": 0,
       "confirmed_count": 0,
       "failure_count": 0,
-      "ok_count": 3246,
-      "measurement_count": 3246,
+      "ok_count": 3240,
+      "measurement_count": 3240,
       "test_name": "ndt",
       "anomaly_rate": 0.0
     },
