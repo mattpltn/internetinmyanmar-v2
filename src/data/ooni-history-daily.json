@@ -443,10 +443,20 @@
     "anomaly_count": 708,
     "confirmed_count": 81,
     "failure_count": 127,
-    "ok_count": 3183,
-    "measurement_count": 4099,
+    "ok_count": 3184,
+    "measurement_count": 4100,
     "measurement_start_day": "2026-05-11",
     "anomaly_rate": 17.3,
     "period": "2026-05-11"
+  },
+  {
+    "anomaly_count": 322,
+    "confirmed_count": 57,
+    "failure_count": 63,
+    "ok_count": 1633,
+    "measurement_count": 2075,
+    "measurement_start_day": "2026-05-12",
+    "anomaly_rate": 15.5,
+    "period": "2026-05-12"
   }
 ]
