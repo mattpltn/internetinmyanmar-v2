@@ -210,6 +210,15 @@ function eventVerb(from: string, to: string): string {
   datasetDescription={`Real-time tracking of BGP route withdrawals for ${totalCount} Myanmar autonomous systems (ASNs). Sourced from RIPEstat global route collectors and IODA.`}
   pageUrl="https://www.internetinmyanmar.com/observatory/bgp/"
 >
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "Dataset",
+    "name": "Myanmar BGP Network Status",
+    "description": `Real-time BGP routing anomalies and outages for ${totalCount} Myanmar ASNs. Sourced from RIPEstat global route collectors.`,
+    "url": "https://www.internetinmyanmar.com/observatory/bgp/",
+    "creator": { "@id": "https://www.internetinmyanmar.com/#organization" },
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+  })} />
 
   <!-- Embedded data for client-side rendering -->
   <script id="chart-data"  type="application/json" set:html={JSON.stringify(chartData)}    />

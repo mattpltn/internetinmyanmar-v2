@@ -51,6 +51,11 @@ const websiteSchema = {
   description: 'Independent tracking of internet shutdowns, censorship, and connectivity in Myanmar. Real-time OONI data, analysis, and reports.',
   inLanguage: ['en', 'fr', 'es', 'it'],
   publisher: { '@id': `${siteUrl}/#organization` },
+  potentialAction: {
+    '@type': 'SearchAction',
+    target: `${siteUrl}/?s={search_term_string}`,
+    'query-input': 'required name=search_term_string',
+  },
 }
 
 const schema = props.type === 'article' ? {

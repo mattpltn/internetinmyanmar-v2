@@ -14,6 +14,13 @@ const articles = (await getCollection('articles', ({ data }) =>
   seoTitle="Myanmar ISP & Home Broadband Guide | Internet in Myanmar"
   metaDescription="Reviews and comparisons of home internet providers, fiber broadband, and WISP services in Myanmar. Choose the best ISP for your location."
 >
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "Myanmar ISP & Home Broadband Guide",
+    "url": "https://www.internetinmyanmar.com/broadband/",
+    "publisher": { "@id": "https://www.internetinmyanmar.com/#organization" },
+  })} />
   <div class="max-w-5xl mx-auto px-4 py-12">
     <div class="font-mono text-xs text-[color:var(--color-accent)] mb-3 uppercase tracking-widest">ISP & Broadband</div>
     <h1 class="font-headline text-3xl md:text-4xl mb-4">ISP & Broadband</h1>

@@ -30,6 +30,15 @@ const bgpDownLive          = liveMetrics.bgp_networks_down_now  ?? bgpDown
   metaDescription="Real-time tracking of internet shutdowns, blocked sites, and connectivity anomalies in Myanmar. Powered by OONI data."
   lastUpdated={stats.lastUpdated}
 >
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "Dataset",
+    "name": "Myanmar Internet Observatory",
+    "description": "Real-time tracking of internet shutdowns, blocked sites, and BGP routing anomalies in Myanmar. Powered by OONI data.",
+    "url": "https://www.internetinmyanmar.com/observatory/",
+    "creator": { "@id": "https://www.internetinmyanmar.com/#organization" },
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+  })} />
   <div class="max-w-7xl mx-auto px-4 py-12">
 
     <!-- Stats grid -->
