@@ -12,5 +12,12 @@ Allow: /
 
 User-agent: *
 Allow: /
+Disallow: /wp-admin/
+Disallow: /wp-login.php
+Disallow: /keystatic/
+Disallow: /*?s=
+Disallow: /*?filter_by=
+Disallow: /*?ak_action=
+Disallow: /*?m=
 
 Sitemap: https://www.internetinmyanmar.com/sitemap-index.xml

@@ -490,10 +490,11 @@ http://www.internetinmyanmar.com/* https://www.internetinmyanmar.com/:splat 301
 /myanmar-speedtest/ / 301
 /705ea-news/page/10/ / 301
 
-# --- Language prefix ghost pages (no content at these roots yet) ---
-/it/ / 301
-/es/ / 301
-/fr/ / 301
+# --- Language prefix ghost pages (WP translated content — no Astro equivalent) ---
+/es/* / 301
+/fr/* / 301
+/it/* / 301
+/my/tag/* / 301
 
 # --- WP /en/ tag and category pages ---
 /en/tag/* / 301
@@ -526,6 +527,16 @@ http://www.internetinmyanmar.com/* https://www.internetinmyanmar.com/:splat 301
 /about/anna/ /about/sacha-nakeo/ 301
 /about/anna /about/sacha-nakeo/ 301
 /articles/ooni-probe-x7k4r2m9p1/ /articles/ooni-probe-myanmar-censorship-data/ 301
+
+# --- Real 404s from GSC drilldown ---
+/internet-service-finder-mm/ /observatory/ 301
+/internet-service-finder-mm /observatory/ 301
+/internet-service-finder/ /observatory/ 301
+/internet-provider-service-coverage/ /observatory/ 301
+/internet-myanmar-2/ / 301
+/newhome-2/ / 301
+/member-page-home/ / 301
+/contact-2/ /about/mission/ 301
 
 # Catch-all: WP archive month URLs, paginated EN tags/categories
 /en/tag/* / 301
