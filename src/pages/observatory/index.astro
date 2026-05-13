@@ -8,7 +8,7 @@ import cfOutages from '../../data/cf-radar-outages.json'
 import LiveSignalChart from '../../components/charts/LiveSignalChart.astro'
 import metricsSnapshotRaw from '../../../public/data/metrics_snapshot.json'
 
-export const prerender = false
+export const prerender = true
 
 const asnStatus: Record<string, any> = asnStatusRaw as any
 const bgpOutages: any[] = bgpOutagesRaw as any

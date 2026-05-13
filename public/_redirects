@@ -483,6 +483,7 @@ http://www.internetinmyanmar.com/* https://www.internetinmyanmar.com/:splat 301
 
 
 # --- Article pages that exist (missing redirect rules) ---
+/articles/myanmar-internet-censorship-2025/ /articles/myanmar-election-internet-censorship-2025-2026/ 301
 
 # --- Discarded WP pages (no equivalent content) ---
 /newhome-2/ / 301

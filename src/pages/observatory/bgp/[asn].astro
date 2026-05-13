@@ -4,7 +4,14 @@ import asnStatusRaw from '../../../data/asn-status.json'
 import outagesRaw from '../../../data/bgp-outages.json'
 import stats from '../../../content/observatory/stats.json'
 
-export const prerender = false
+export const prerender = true
+
+export function getStaticPaths() {
+  const asnStatus: Record<string, any> = asnStatusRaw as any
+  return Object.keys(asnStatus)
+    .filter(k => typeof asnStatus[k] === 'object' && asnStatus[k] !== null)
+    .map(asn => ({ params: { asn } }))
+}
 
 const asnStatus: Record<string, any> = asnStatusRaw as any
 const allOutages: any[] = outagesRaw as any

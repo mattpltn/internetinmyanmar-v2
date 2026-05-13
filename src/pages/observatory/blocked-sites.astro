@@ -4,7 +4,7 @@ import stats from '../../content/observatory/stats.json'
 import blockedData from '../../data/blocked-sites.json'
 import OoniCategoryChart from '../../components/charts/OoniCategoryChart.astro'
 
-export const prerender = false
+export const prerender = true
 
 const categoryColors: Record<string, string> = {
   'Social Media':       'var(--color-danger)',

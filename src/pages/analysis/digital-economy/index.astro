@@ -3,7 +3,7 @@ import { getCollection } from 'astro:content'
 import Base from '../../../layouts/Base.astro'
 import ArticleList from '../../../components/ArticleList.astro'
 
-export const prerender = false
+export const prerender = true
 
 const articles = (await getCollection('articles', ({ data }) =>
   !data.draft && !data.archived && data.category === 'Digital Economy' && data.lang === 'en'
