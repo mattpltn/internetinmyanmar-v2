@@ -1,4 +1,4 @@
-# generated_at: 2026-05-12T12:15:02Z, dataset_version: v202605121210, source: internetinmyanmar.com/data
+# generated_at: 2026-05-14T00:15:02Z, dataset_version: v202605140010, source: internetinmyanmar.com/data
 period,measurement_start_day,measurement_count,anomaly_count,anomaly_rate,confirmed_count,failure_count,ok_count
 2021-02-01,2021-02-01,443319,56286,12.7,0,30947,356086
 2021-03-01,2021-03-01,111902,12460,11.1,0,1909,97533
@@ -107,4 +107,5 @@ period,measurement_start_day,measurement_count,anomaly_count,anomaly_rate,confir
 2026-05-09,2026-05-09,6130,856,14.0,46,277,4951
 2026-05-10,2026-05-10,5985,962,16.1,73,226,4724
 2026-05-11,2026-05-11,4100,708,17.3,81,127,3184
-2026-05-12,2026-05-12,2075,322,15.5,57,63,1633
+2026-05-12,2026-05-12,3522,552,15.7,105,95,2770
+2026-05-13,2026-05-13,2590,404,15.6,61,69,2056
