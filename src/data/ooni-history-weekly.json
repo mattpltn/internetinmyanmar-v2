@@ -2750,13 +2750,23 @@
     "period": "2026-05-03"
   },
   {
-    "anomaly_count": 4505,
-    "confirmed_count": 570,
-    "failure_count": 856,
-    "ok_count": 20503,
-    "measurement_count": 26434,
+    "anomaly_count": 4975,
+    "confirmed_count": 589,
+    "failure_count": 964,
+    "ok_count": 23077,
+    "measurement_count": 29605,
     "measurement_start_day": "2026-05-10",
-    "anomaly_rate": 17.0,
+    "anomaly_rate": 16.8,
     "period": "2026-05-10"
+  },
+  {
+    "anomaly_count": 0,
+    "confirmed_count": 0,
+    "failure_count": 0,
+    "ok_count": 5,
+    "measurement_count": 5,
+    "measurement_start_day": "2026-05-17",
+    "anomaly_rate": 0.0,
+    "period": "2026-05-17"
   }
 ]
