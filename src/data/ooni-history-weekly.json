@@ -2760,13 +2760,13 @@
     "period": "2026-05-10"
   },
   {
-    "anomaly_count": 0,
-    "confirmed_count": 0,
-    "failure_count": 0,
-    "ok_count": 5,
-    "measurement_count": 5,
+    "anomaly_count": 817,
+    "confirmed_count": 60,
+    "failure_count": 182,
+    "ok_count": 4087,
+    "measurement_count": 5146,
     "measurement_start_day": "2026-05-17",
-    "anomaly_rate": 0.0,
+    "anomaly_rate": 15.9,
     "period": "2026-05-17"
   }
 ]
