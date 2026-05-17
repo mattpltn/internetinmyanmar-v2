@@ -213,9 +213,19 @@ draft: false{myanmar_fields}{featured_image_field}
 
 def slugify(title: str) -> str:
     slug = title.lower()
+    slug = slug.encode("ascii", "ignore").decode("ascii")  # strip non-ASCII (safety net)
     slug = re.sub(r"[^\w\s-]", "", slug)
     slug = re.sub(r"[-\s]+", "-", slug)
     return slug[:60].strip("-")
+
+
+def _english_title(c: dict) -> str:
+    """Return the English title for a candidate, translating Burmese if needed. Caches result."""
+    if c.get("lang") == "my":
+        if not c.get("_translated_title"):
+            c["_translated_title"] = _translate(c.get("your_title") or c.get("title", ""))
+        return c["_translated_title"]
+    return c.get("your_title") or c.get("title", "")
 
 
 # ── GitHub publish ─────────────────────────────────────────────────────────────
@@ -368,7 +378,7 @@ async def cmd_share(update: Update, context: ContextTypes.DEFAULT_TYPE):
         )
         return
 
-    title = article.get("your_title") or article.get("title", "")
+    title = _english_title(article)
     slug  = slugify(title)
     pub_date = (article.get("published") or date.today().isoformat())[:10]
     full_slug = f"{pub_date}-{slug}"
@@ -454,10 +464,11 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
     from distribution.social_poster import post_all
     for article in selected:
         pub_date = (article.get("published") or date.today().isoformat())[:10]
-        article_slug = slugify(article.get("your_title") or article.get("title", ""))
+        article_title = _english_title(article)
+        article_slug = slugify(article_title)
         try:
             results = post_all({
-                "title":      article.get("your_title") or article.get("title", ""),
+                "title":      article_title,
                 "excerpt":    strip_html(article.get("summary") or "")[:300],
                 "category":   normalize_category(article.get("category", "")),
                 "source":     article.get("source_name") or article.get("source", ""),
